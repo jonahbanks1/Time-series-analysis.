@@ -1,7 +1,16 @@
 # Time-series-analysis.
 Evaluating household power consumption.
 
-Time series data is such that a contains two main sets of information: the time and date data and the dependent variables. 
-In this demonstration, I analyzed household power consumption per minute of a family across a span of 6 years. 
-Exploratory analysis revealed trends in the data which was modeled using ARIMA, and I used the model to make predictions to a high accuracy. 
-All the code used in the project is attached for convenience. 
+The dataset for this project is available for free on kaggle: https://www.kaggle.com/datasets/uciml/electric-power-consumption-data-set/
+
+Extact the zip folder to path and open using your preferred library. 
+ 
+In this demonstration, I analyzed household power consumption data spanning 6 years. 
+
+the data patterns were modelled and plotted using 2d plots. 
+
+Using the avaialable models, we can make some prediction of what the future datapoints might be. 
+
+cheers, 
+
+@Jonah_emeka. 
