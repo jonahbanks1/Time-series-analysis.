@@ -19,9 +19,14 @@ df.replace('?', 'nan',inplace = True)
 df.fillna(method = 'ffill', inplace=True)
 
 # add a column for the remainder of sub metering
+## for the sake of our analysis, we need to extract a new value which is derived from the quotient of two columns:
+
+## sub_metering_4 = ((Global_active_power * fn(e)) - (Sub_metering_1 + (Sub_metering_2 + (Sub_metering_3 ))
 
 values = df.values.astype('float32')
 df['sub_metering_4'] = ((values[:,0])*1000/60) - (values[:,4] + values[:,5] + values[:,6])
+
+## Vizualization. 
 
 # Downsampling daily
 df_daily = df.resample('D').mean()
