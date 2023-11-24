@@ -5,7 +5,7 @@ The dataset for this project is available for free on kaggle: https://www.kaggle
 
 Extact the zip folder to path and open using your preferred library. 
  
-In this demonstration, I analyzed household power consumption data spanning 6 years. 
+In this demonstration, I analyzed household power consumption data spanning 4 years. (47 months).
 
 the data patterns were modelled and plotted using 2d plots. 
 
